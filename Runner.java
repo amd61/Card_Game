@@ -7,5 +7,8 @@ public class Runner {
 
     Game myGame = new Game();
     myGame.setupDeck();
+    myGame.setupPlayers();
+    myGame.deal();
+    myGame.getWinner();
   }
 }
